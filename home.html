@@ -10,15 +10,6 @@
     <!-- esse é o link para o meu css -->
     <link rel="stylesheet" href="projeto.css">
 
-    <style>
-        /* FONTE - METAL MANIA */
-        @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
-        /* FONTE - ROBOTO SLAB */
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-        /* FONTE - ROBOTO */
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
-    </style>
-
     <title>Bartzabel Studio Tattoo</title>
 </head>
 <body>
@@ -32,7 +23,9 @@
     <!-- CABEÇALHO -->
     <header>
         <!-- IMAGEM DO LOGO -->
-        <img src="imagens_utilizadas/logo_transparente.png" id="logo" alt="Logotipo do Bartzabel Studio Tattoo: letras caligráficas góticas vermelhas com efeito desgastado, formando a palavra 'Bartzabel' com um sublinhado decorativo e, abaixo, 'TATTOO STUDIO' em maiúsculas, sobre um fundo transparente; transmite uma estética de tatuagem ousada, crua e vintage.">
+         <div class="mx-auto">
+            <img src="imagens_utilizadas/logo_transparente.png" id="logo" alt="Logotipo do Bartzabel Studio Tattoo: letras caligráficas góticas vermelhas com efeito desgastado, formando a palavra 'Bartzabel' com um sublinhado decorativo e, abaixo, 'TATTOO STUDIO' em maiúsculas, sobre um fundo transparente; transmite uma estética de tatuagem ousada, crua e vintage.">
+         </div>
     </header>
 
     <!--  
@@ -46,7 +39,6 @@
             <a class="navbar-brand" href="#">Página Inicial</a>
             <!-- 
                 data-bs-toggle == faz com que, quando apertado, demonstre uma aparência de que está ativado; 
-                
              -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,7 +58,7 @@
     <!-- TEXTO DE BOAS VINDAS -->
     <h2 class="fs-1 text-center">Seja bem-vindo ao Bartzabel Studio <br> Onde a arte ganha vida na sua pele!</h2>
 
-    <hr class="border-2">
+    <hr class="linha-horizontal">
 
     <!-- CARROSSEL COM IMAGENS -- BOOTSTRAP -->
     <div id="carouselExample" class="carousel slide w-75 mx-auto">
@@ -79,7 +71,7 @@
             
             <!-- imagem 2 -->
             <div class="carousel-item">
-            <img src="imagens_utilizadas/tattoo-2.jpeg" class="d-block" alt="Antebraço exibindo uma tatuagem recente em tinta preta de rosas e outros ramos floridos com duas pequenas borboletas; elementos florais dispostos ao longo da parte interna do antebraço com linhas finas e sombreamento suave. A pele apresenta um leve brilho e ligeira irritação, condizentes com uma tatuagem recente.">
+            <img src="imagens_utilizadas/tattoo-2.jpg" class="d-block" alt="Antebraço exibindo uma tatuagem recente em tinta preta de rosas e outros ramos floridos com duas pequenas borboletas; elementos florais dispostos ao longo da parte interna do antebraço com linhas finas e sombreamento suave. A pele apresenta um leve brilho e ligeira irritação, condizentes com uma tatuagem recente.">
             </div>
 
             <!-- imagem 3 -->
@@ -98,11 +90,16 @@
             <span class="visually-hidden">Próximo</span>
         </button>
     </div>
-    <!-- abaixo do carrossel terá um botão para a pagina do portfólio -->
-    <button>Clique aqui para acessar o portfólio completo</button>
+    <!-- BOTÃO PARA PORTFÓLIO -->
+    <div class="text-center my-4">
+        <a href="#" class="btn btn-danger btn-lg">Ver Portfólio Completo</a>
+    </div>
 
-    <!-- LOCALIZAÇÃO -->
-
+    <!-- FOOTER: LOCALIZAÇÃO -->
+    <footer class="bg-black text-center text-white py-4">
+        <p class="mb-1">Endereço: Rua das Tatuagens, 123 - Cidade da Arte, Estado</p>
+        <p class="mb-1">Telefone: (11) 1234-5678 | Email:
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

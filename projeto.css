@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap'); /* FONTE - METAL MANIA */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); /* FONTE - ROBOTO SLAB */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap'); /* FONTE - ROBOTO */
+
 :root {
     --cor-primaria: #000; /* Preto */
     --cor-secundaria: #d81116; /* Vermelho vibrante */
@@ -23,13 +27,13 @@ h1, h2 {
 }
 
 /* Subtítulos */
-h3, h4, h5, h6 {
+h3, h4, h5, h6, a {
     font-family: var(--fonte-titulo);
     color: var(--cor-secundaria);
 }
 
 /* Texto Normal */
-p, li, a, span, div {
+p, li, span, div {
     font-family: var(--fonte-texto);
     color: var(--cor-texto);
 }
@@ -45,14 +49,14 @@ p, li, a, span, div {
 
 /* Logo */
 #logo {
-    width: 10%;
-    height: 10%;
+    width: 150px;
+    height: auto;
 }
 
 /* Carrossel */
 #carouselExample .carousel-item img {
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    height: auto;
 }
 .carousel-inner {
     border: 2px solid red;
