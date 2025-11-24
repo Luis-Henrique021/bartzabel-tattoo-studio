@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); /* FONTE - ROBOTO SLAB */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap'); /* FONTE - ROBOTO */
 
+/* VARIÁVEIS GLOBAIS */
 :root {
     --cor-primaria: #000; /* Preto */
     --cor-secundaria: #d81116; /* Vermelho vibrante */
@@ -48,6 +49,11 @@ p, li, span, div {
    margin: 20px 10px;
 }
 
+/* Menu de Navegação */
+/* Itens */
+.item-menu {
+    margin-left: 1rem; /* adciona um espaçamento a esquerda dos links do menu */
+}
 
 /* A PARTIR DAQUI MEXE NO home.html */
 
@@ -90,4 +96,9 @@ p, li, span, div {
     font-size: 1.25rem;
     margin-bottom: 30px; /* adiciona um espaçamento embaixo do texto */
 }
+
+/* A PARTIR DAQUI MEXE NO portfolio.html */
+
+
+
 /* A PARTIR DAQUI MEXE NO sobre.html */
