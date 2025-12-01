@@ -50,17 +50,10 @@ p, li, span, div {
    margin: 20px 10px;
 }
 
-/* Menu de Navegação */
-/* Itens */
-.item-menu {
-    margin-left: 1rem; /* adciona um espaçamento a esquerda dos links do menu */
-}
-
-/* A PARTIR DAQUI MEXE NO home.html */
-
-/* Container Principal (onde está os conteúdos) */
-.cover-container {
-  max-width: 42em;
+/* Logo */
+#logo {
+    width: 125px;
+    height: auto;
 }
 
 /* Menu de Navegação */
@@ -73,16 +66,21 @@ p, li, span, div {
 .nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
     border-bottom-color: rgba(255, 255, 255, .25); /* ...deixe sublinhado */
 }
-/* dentro do menu: mexer com o item ativo (ver html para entender) */
+/* Dentro do menu: mexer com a aba ativa (ver html para entender) */
 .nav-masthead .active {
     color: #fff; /* deixa o item ativo branco */
     border-bottom-color: #fff; /* mostra um sublinhado embaixo  */
 }
+/* Itens */
+.item-menu {
+    margin-left: 1rem; /* adciona um espaçamento a esquerda dos links do menu */
+}
 
-/* Logo */
-#logo {
-    width: 125px;
-    height: auto;
+/* A PARTIR DAQUI MEXE NO home.html */
+
+/* Container Principal (onde está os conteúdos) */
+.cover-container {
+  max-width: 42em;
 }
 
 /* Título e Texto */
@@ -120,3 +118,9 @@ p, li, span, div {
 }
 
 /* A PARTIR DAQUI MEXE NO sobre.html */
+
+/* Foto do tatuador */
+#foto-artista {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}

@@ -10,12 +10,13 @@
     <!-- esse é o link para o meu css -->
     <link rel="stylesheet" href="projeto.css">
 
-    <title>Bartzabel Tattoo Studio - Sobre</title>
+    <title>Bartzabel Tattoo Studio - Contato</title>
 </head>
-<body>
+
+<body class="d-flex h-100 flex-column"> <!-- ativa o flexbox (d-flex), ocupa todo o espaço vertical disponível (h-100) e organiza os elementos em coluna (flex-column) -->
 
     <!-- CABEÇALHO -->
-    <header class="p-3 mb-0">
+    <header class="p-3 mb-4">
         <div class="container"> <!-- essa div serve para limitar a largura, se a tela for gigante a logo e o menu fiquem colados no canto -->
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"> <!-- ativa o flexbox (d-flex), permite quebra de linha (flex-wrap), alinha itens verticalmente ao centro (align-items-center), centraliza itens horizontalmente (justify-content-center) e alinha itens ao início em telas >=992 pixels (justify-content-lg-start) -->
                 <!-- esse a faz com que a imagem seja clicavel e seja levado à página principal -->
@@ -23,48 +24,20 @@
                 <ul class="nav nav-masthead ms-auto justify-content-center mb-md-0 auto fw-bold"> <!-- cria o menu de navegação (nav), com itens centralizados (justify-content-center) e que ficam no final da div em telas >=768 pixels (float-md-end), com fonte em negrito (fw-bold) -->
                     <li class="item-menu"><a class="nav-link" href="home.html">Home</a></li>
                     <li class="item-menu"><a class="nav-link" href="portfolio.html">Portfólio</a></li>
-                    <li class="item-menu"><a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a></li>
-                    <li class="item-menu"><a class="nav-link" href="contato.html">Contato</a></li>
+                    <li class="item-menu"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="item-menu"><a class="nav-link active" aria-current="page" href="contato.html">Contato</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
-<!-- ESPERAR JOÃO MANDAR FOTO PARA PODER COMEÇAR A CONFIGURAR -->
-
     <!-- CONTEÚDO -->
     <main>
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-5">
-            <!-- imagem responsiva que ocupa 10 colunas em telas muito pequenas, 8 colunas em telas pequenas e 6 colunas em telas grandes -->
-            <img
-              src="imagens_utilizadas/tatuador/joao.jpeg"
-              class="d-block mx-lg-auto rounded img-fluid"
-              id="foto-artista"
-              alt="Bootstrap Themes"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 text-center text-lg-center lh-1 mb-3">
-              Sobre o Artista
-            </h1>
-            <p class="lead">
-              João Lopes, também conhecido pelo seu nome artístico de Bartzabel, 
-              é tatuador desde 2023 na cidade de São Paulo.
-              Tem 22 anos e aprecia especialmente estilos como blackwork, rastelado e preto e cinza.
-              Desde jovem, Bartzabel demonstrou interesse pela arte e pela cultura alternativa,
-              o que o levou a explorar o mundo da tatuagem.
-            </p>
-          </div>
-        </div>
-      </div>
-
-
+   
     </main>
 
     <!-- RODAPÉ DA PÁGINA -->
-    <footer class="text-white-50 fs-6 text-center p-2">
+    <footer class="mt-auto text-white-50 fs-6 text-center pt-5">
         <p>
             Atendimento somente com hora marcada <br>
             &copy; 2025 Bartzabel Tattoo Studio
