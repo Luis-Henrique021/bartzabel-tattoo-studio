@@ -116,12 +116,10 @@ function verificarFormulario() {
     if (input_arquivo.files.length === 0) {
 
         // Erro visual
-        input_arquivo.style.border = "2px solid yellow";
-        input_arquivo.style.boxShadow = "0 0 5px yellow";
+        input_arquivo.style.border = "";
+        input_arquivo.style.boxShadow = "";
 
-        document.getElementById("erro_envio-arquivo").textContent = "Por favor, anexe a(s) imagem(ns) de referência";
-
-        tudoValido = false;
+        document.getElementById("erro_envio-arquivo").textContent = "";
     } else { // Se tiver algum arquivo anexado...
 
         // Cria uma variável para verificar os arquivos selecionados
@@ -152,7 +150,7 @@ function verificarFormulario() {
             input_arquivo.style.border = "2px solid yellow";
             input_arquivo.style.boxShadow = "0 0 5px yellow";
 
-            document.getElementById("erro_envio-arquivo").textContent = "Por favor, envie apenas imagens (JPG, PNG, entre outros)";
+            document.getElementById("erro_envio-arquivo").textContent = "Envie apenas imagens (JPG, PNG, entre outros)";
 
             tudoValido = false;
         } else {

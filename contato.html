@@ -36,7 +36,7 @@
 
         <!-- Formulário -->
         <h2 class="display-5 text-center">Formulário de Contato</h2>
-        <form action="teste.py" method="post" id="form_contato" class="my-2 mx-5" enctype="multipart/form-data" data-bs-theme="dark" onsubmit="return verificarFormulario()" novalidate>
+        <form action="https://formsubmit.co/bartzabeltattoo@gmail.com" method="POST" id="form_contato" class="my-2 mx-5" enctype="multipart/form-data" data-bs-theme="dark" onsubmit="return verificarFormulario()" novalidate>
 
             <!-- Nome do Cliente -->
             <div class="mb-3">
@@ -87,7 +87,7 @@
             
             <!-- Inserir arte do projeto -->
             <div class="mb-3">
-                <label for="img_projeto" class="form-label">Insira a arte do projeto <span class="text-danger">*</span></label>
+                <label for="img_projeto" class="form-label">Insira a arte do projeto</label>
                 <input type="file" id="img_projeto" class="form-control" name="img_projeto">
                 <span id="erro_envio-arquivo"></span>
                 <!-- Aviso de tamanho máximo -->
@@ -122,6 +122,8 @@
             <div class="mb-3">
                 <button type="submit" class="btn btn-lg btn-danger">Enviar</button>
             </div>
+
+            <input type="hidden" name="_next" value="obrigado.html">
         </form>
 
         <hr class="linha-horizontal m-5">

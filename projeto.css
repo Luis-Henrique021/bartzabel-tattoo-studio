@@ -84,10 +84,10 @@ p, li, span, div {
 }
 
 /* Título e Texto */
-#titulo-home {
+#titulo-home, #titulo-obrigado {
     font-size: 4rem;
 }
-#texto-home {
+#texto-home, #texto-obrigado {
     font-size: 1.25rem;
     margin-bottom: 30px; /* adiciona um espaçamento embaixo do texto */
 }
